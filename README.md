@@ -7,16 +7,8 @@
   [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
   [![Built with VitePress](https://img.shields.io/badge/Built%20with-VitePress-brightgreen.svg)](https://vitepress.dev)
 
-<div align="center" style="margin: 2rem 0;">
-  <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-    <div style="text-align: center;">
-      <img src="docs/public/images/ovh.png" alt="OPNsense Firewall Interface" style="max-width: 350px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"/>
-    </div>
-    <div style="text-align: center;">
-      <img src="docs/public/images/proxmox-logo.png" alt="Proxmox Virtual Environment" style="max-width: 450px;"/>
-    </div>
-  </div>
-</div>
+  <img src="docs/public/images/ovh.png" alt="OPNsense Firewall Interface" width="350"/>
+  <img src="docs/public/images/proxmox-logo.png" alt="Proxmox Virtual Environment" width="450"/>
 
   Utilize OVH dedicated server as powerful self-contained virtualization environment with secure private networking
 </div>
@@ -31,17 +23,14 @@ This documentation guides you through creating a virtualization environment on y
 
 It's something of a familiar homelab experience, but with datacenter hardware and connectivity
 
-<div align="center" style="margin: 2rem 0;">
-  <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-    <div style="text-align: center;">
-      <a href="docs/public/images/opnsense.png"><img src="docs/public/images/opnsense.png" alt="OPNsense Firewall Interface" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"/></a>
-      <p style="margin-top: 0.5rem;"><strong>Secure Networking</strong></p>
-    </div>
-    <div style="text-align: center;">
-      <a href="docs/public/images/pve.png"><img src="docs/public/images/pve.png" alt="Proxmox Virtual Environment" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"/></a>
-      <p style="margin-top: 0.5rem;"><strong>Powerful Virtualization</strong></p>
-    </div>
-  </div>
+<div align="center">
+
+[![OPNsense Firewall Interface](docs/public/images/opnsense.png)](docs/public/images/opnsense.png)
+**Secure Networking**
+
+[![Proxmox Virtual Environment](docs/public/images/pve.png)](docs/public/images/pve.png)
+**Powerful Virtualization**
+
 </div>
 
 ## Documentation
