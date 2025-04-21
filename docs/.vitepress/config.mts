@@ -8,7 +8,15 @@ export default defineConfig({
   lastUpdated: true,
   // Base URL for GitHub Pages
   base: process.env.NODE_ENV === "production" ? "/proxmox-on-ovh/" : "/",
-
+  head: [
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "_UCf77FNCDKJ4Ky3yKlyuKnXf_N4tjEUXmV5aok-tck",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/images/proxmox.png",
